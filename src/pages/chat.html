@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-primary">
+    <div class="bg-tertiary text-center py-4 relative">
+        <a href="paginaRedireccions.html" class="absolute top-4 left-4 text-lime-200 text-2xl">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        <!-- Main Title (side-to-side, top of the page) -->
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-lime-200">Chat</h1>
+    </div>
+
+    <!-- Container -->
+    <div class="max-w-lg mx-auto mt-8">
+
+        <!-- Chat Notice -->
+        <div class="bg-secondary2 p-4 text-negre rounded-lg mt-4">
+            <p>Aquest chat és una zona segura on compartí informació i poder organitzar esdeveniments per a la comunitat. Es demana que feu un ús responsable d'ell.</p>
+        </div>
+
+        <!-- Messages Container -->
+        <div class="bg-blanc p-4 rounded-lg mt-4 h-80 overflow-auto"> <!-- Altura fixa y scroll -->
+            <!-- Message 1 -->
+            <div class="flex items-start mb-4">
+                <div class="bg-secondary2 p-3 rounded-lg text-negre shadow-md max-w-xs">
+                    <p><strong>Dives:</strong> El Dives planteja una reunió pacífica en un centre contaminant. Adjunto link de telegram per els que es vulguin unir. link......</p>
+                </div>
+            </div>
+
+            <!-- Message 2 -->
+            <div class="flex items-start mb-4 justify-end">
+                <div class="bg-blanc p-3 rounded-lg border border-gray shadow-md max-w-xs">
+                    <p><strong>Usuari:</strong> Bona idea, Jo puc aportar ajuda.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="flex mt-4">
+            <input class="flex-grow border-2 border-blue500 p-2 rounded-l-lg" type="text" placeholder="M'agrada l'idea jo igual">
+            <button class="bg-blue500 p-2 rounded-r-lg text-blanc">
+                <!-- Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12l14-8v16l-14-8z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
