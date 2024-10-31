@@ -1,92 +1,58 @@
 <!DOCTYPE html>
 <html lang="ca">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tipus D'Animals</title>
-        <link rel="stylesheet" href="/src/css/main.css" />
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
-    <body class="bg-gray-100">
-        <!-- Header -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipus de Plantes</title>
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <div class="bg-tertiary text-white text-center py-4 relative">
+        <a href="paginaRedireccions.html" class="absolute top-4 left-4 text-lime-200 text-2xl">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold">Tipus de Plantes</h1>
+    </div>
 
-        <div class="bg-tertiary text-white text-center py-4">
-            <a href="paginaRedireccions.html"
-                class="absolute top-4 left-4 text-lime-200 text-2xl">
-                <i class="fas fa-arrow-left"></i>
-            </a>
-
-            <h1
-                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Tipus
-                De Plantes</h1>
+    <!-- Categories -->
+    <div class="p-4 sm:p-6 md:p-8 lg:p-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-green-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Arbres</h2>
+            <button onclick="location.href='./seleccioEspecimens/arbres.html'" class="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">Click</button>
         </div>
 
-        <!-- Categories -->
-        <div
-            class="p-4 sm:p-6 md:p-8 lg:p-12 space-y-4 md:space-y-6 lg:space-y-8">
-            <div
-                class="bg-secondary1 p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg text-center">
-                <h2
-                    class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Arbres</h2>
-                <button
-                    onclick="location.href='./seleccioEspecimens/arbres.html'"
-                    class="bg-secondary2 text-blue-700 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 lg:py-5 lg:px-12 rounded-full">Click</button>
-            </div>
-
-            <div
-                class="bg-secondary1 p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg text-center">
-                <h2
-                    class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Arbustos</h2>
-                <button onclick="location.href='./seleccioEspecimens/arbustos.html'"
-                    class="bg-secondary2 text-blue-700 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 lg:py-5 lg:px-12 rounded-full">Click</button>
-            </div>
-
-            <div
-                class="bg-secondary1 p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg text-center">
-                <h2
-                    class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Herbes</h2>
-                <button
-                    onclick="location.href='./seleccioEspecimens/herbes.html'"
-                    class="bg-secondary2 text-blue-700 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 lg:py-5 lg:px-12 rounded-full">Click</button>
-            </div>
-
-            <div
-                class="bg-secondary1 p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg text-center">
-                <h2
-                    class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Plantas suculentas</h2>
-                <button
-                    onclick="location.href='./seleccioEspecimens/pSuculentes.html'"
-                    class="bg-secondary2 text-blue-700 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 lg:py-5 lg:px-12 rounded-full">Click</button>
-            </div>
-
-            <div
-                class="bg-secondary1 p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg text-center">
-                <h2
-                    class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Plantas trepadoras</h2>
-                <button
-                    onclick="location.href='./seleccioEspecimens/pTrepadores.html'"
-                    class="bg-secondary2 text-blue-700 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 lg:py-5 lg:px-12 rounded-full">Click</button>
-            </div>
-
-            <div
-                class="bg-secondary1 p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg text-center">
-                <h2
-                    class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Figuerons, falgueres, 
-                    molses i hepàtiques</h2>
-                <button
-                    onclick="location.href='./seleccioEspecimens/ffmh.html'"
-                    class="bg-secondary2 text-blue-700 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 lg:py-5 lg:px-12 rounded-full">Click</button>
-            </div>
-
-            <div
-                class="bg-secondary1 p-4 sm:p-6 md:p-8 lg:p-10 rounded-lg text-center">
-                <h2
-                    class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Plantes insectívores</h2>
-                <button
-                    onclick="location.href='./seleccioEspecimens/pInsectivores.html'"
-                    class="bg-secondary2 text-blue-700 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 lg:py-5 lg:px-12 rounded-full">Click</button>
-            </div>
+        <div class="bg-green-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Arbustos</h2>
+            <button onclick="location.href='./seleccioEspecimens/arbustos.html'" class="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">Click</button>
         </div>
-    </body>
+
+        <div class="bg-green-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Herbes</h2>
+            <button onclick="location.href='./seleccioEspecimens/herbes.html'" class="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">Click</button>
+        </div>
+
+        <div class="bg-green-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Plantes suculentes</h2>
+            <button onclick="location.href='./seleccioEspecimens/pSuculentes.html'" class="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">Click</button>
+        </div>
+
+        <div class="bg-green-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Plantes trepadores</h2>
+            <button onclick="location.href='./seleccioEspecimens/pTrepadores.html'" class="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">Click</button>
+        </div>
+
+        <div class="bg-green-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Figuerons, falgueres, molses i hepàtiques</h2>
+            <button onclick="location.href='./seleccioEspecimens/ffmh.html'" class="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">Click</button>
+        </div>
+
+        <div class="bg-green-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Plantes insectívores</h2>
+            <button onclick="location.href='./seleccioEspecimens/pInsectivores.html'" class="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">Click</button>
+        </div>
+    </div>
+</body>
 </html>

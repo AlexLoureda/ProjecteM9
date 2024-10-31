@@ -7,39 +7,108 @@
   <link rel="stylesheet" href="/src/css/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 font-sans">
 
   <!-- Banner Title -->
-  <div class="bg-tertiary text-center py-4 relative">
-    <a href="paginaRedireccions.html" class="absolute top-4 left-4 text-secondary1 text-2xl">
+  <div class="bg-tertiary text-center py-6 relative rounded-b-3xl shadow-lg">
+    <a href="paginaRedireccions.html" class="absolute top-4 left-4 text-secondary1 text-2xl" aria-label="Regresar">
       <i class="fas fa-arrow-left"></i>
     </a>
-    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-secondary1">Consells</h1>
+    <h1 class="text-5xl font-bold text-secondary1">Consells</h1>
   </div>
 
-  <!-- Canviar a millors bombetes section -->
-  <div class="mt-10 mx-4">
-    <div class="bg-secondary2 text-center text-xl font-medium text-gray py-3 rounded"> 
-      Canviar a millors bombetes
+  <!-- Consells Section -->
+  <div class="max-w-3xl mx-auto mt-10 space-y-6 px-4">
+    
+    <!-- Canviar a millors bombetes -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-lightbulb mr-2 text-blue-500"></i>Canviar a millors bombetes
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Les bombetes incandescents malgasten el 90% de l'energia en calor. Canviar a LED redueix el consum i la petjada de carboni fins a un 80%.
+      </p>
     </div>
-    <div class="mt-2 bg-secondary2 p-4 rounded shadow">
-      <p class="text-gray text-lg">
-        Les bombetes incandescents malgasten el 90% de l'energia en calor. Canviar a LED es redueix el consum i la petjada de carboni fins a un 80%.
+
+    <!-- Desconnecta els dispositius -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-plug mr-2 text-blue-500"></i>Desconnecta els dispositius
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Els aparells electrònics en mode standby consumeixen quasi el 10% de l'energia de la teva factura.
+      </p>
+    </div>
+
+    <!-- Recicla el paper -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-recycle mr-2 text-blue-500"></i>Recicla el paper
+      </h2>
+      <p class="mt-2 text-gray-700">
+        El reciclatge del paper redueix la necessitat de talar arbres i ajuda a conservar recursos naturals.
+      </p>
+    </div>
+
+    <!-- Utilitza bosses reutilitzables -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-shopping-bag mr-2 text-blue-500"></i>Utilitza bosses reutilitzables
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Les bosses de plàstic són contaminants i triguen centenars d'anys a descomposar-se. Utilitzar bosses reutilitzables redueix els residus.
+      </p>
+    </div>
+
+    <!-- Estalvia aigua -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-tint mr-2 text-blue-500"></i>Estalvia aigua
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Reduir el temps de dutxa i arreglar filtres d'aigua pot estalviar centenars de litres d'aigua al mes.
+      </p>
+    </div>
+
+    <!-- Utilitza transports sostenibles -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-bicycle mr-2 text-blue-500"></i>Utilitza transports sostenibles
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Caminar, utilitzar la bicicleta o el transport públic redueix la contaminació i l'ús de combustibles fòssils.
+      </p>
+    </div>
+
+    <!-- Consumeix productes locals -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-leaf mr-2 text-blue-500"></i>Consumeix productes locals
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Comprar productes locals redueix l'impacte ambiental del transport i fomenta l'economia local.
+      </p>
+    </div>
+
+    <!-- Opta per energia renovable -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-solar-panel mr-2 text-blue-500"></i>Opta per energia renovable
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Utilitzar fonts d'energia renovable com el sol o el vent pot disminuir la teva petjada de carboni considerablement.
+      </p>
+    </div>
+
+    <!-- Redueix, reutilitza i recicla -->
+    <div class="bg-secondary2 rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105">
+      <h2 class="text-xl font-semibold text-tertiary flex items-center">
+        <i class="fas fa-recycle mr-2 text-blue-500"></i>Redueix, reutilitza i recicla
+      </h2>
+      <p class="mt-2 text-gray-700">
+        Adoptar la regla dels 3R ajuda a disminuir els residus i promou un estil de vida sostenible.
       </p>
     </div>
   </div>
-
-  <!-- Desconnecta el dispositius section -->
-  <div class="mt-4 mx-4">
-    <div class="bg-secondary2 text-center text-xl font-medium text-gray py-3 rounded"> 
-      Desconnecta el dispositius
-    </div>
-    <div class="mt-2 bg-secondary2 p-4 rounded shadow">
-      <p class="text-gray text-lg">
-        Los aparatos electrónicos en modo standby consumen casi el 10% de la energía de tu factura.
-      </p>
-    </div>
-  </div>
-
 </body>
 </html>

@@ -6,51 +6,54 @@
     <title>Chat</title>
     <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-primary">
-    <div class="bg-tertiary text-center py-4 relative">
-        <a href="paginaRedireccions.html" class="absolute top-4 left-4 text-lime-200 text-2xl">
+    <header class="bg-tertiary text-center py-4 relative">
+        <a href="paginaRedireccions.html" class="absolute top-4 left-4 text-lime-200 text-2xl" aria-label="Torna enrere">
             <i class="fas fa-arrow-left"></i>
         </a>
-        <!-- Main Title (side-to-side, top of the page) -->
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-lime-200">Chat</h1>
-    </div>
+    </header>
 
-    <!-- Container -->
-    <div class="max-w-lg mx-auto mt-8">
-
+    <!-- Main Container -->
+    <main class="max-w-lg mx-auto mt-8">
         <!-- Chat Notice -->
-        <div class="bg-secondary2 p-4 text-negre rounded-lg mt-4">
-            <p>Aquest chat és una zona segura on compartí informació i poder organitzar esdeveniments per a la comunitat. Es demana que feu un ús responsable d'ell.</p>
-        </div>
+        <section class="bg-secondary2 p-4 text-negre rounded-lg mt-4">
+            <p>Aquest chat és una zona segura on compartir informació i organitzar esdeveniments per a la comunitat. Es demana que feu un ús responsable d'ell.</p>
+        </section>
 
         <!-- Messages Container -->
-        <div class="bg-blanc p-4 rounded-lg mt-4 h-80 overflow-auto"> <!-- Altura fixa y scroll -->
+        <section class="bg-blanc p-4 rounded-lg mt-4 h-80 overflow-auto shadow-lg">
             <!-- Message 1 -->
             <div class="flex items-start mb-4">
-                <div class="bg-secondary2 p-3 rounded-lg text-negre shadow-md max-w-xs">
-                    <p><strong>Dives:</strong> El Dives planteja una reunió pacífica en un centre contaminant. Adjunto link de telegram per els que es vulguin unir. link......</p>
+                <div class="bg-secondary2 p-3 rounded-lg text-negre shadow-md max-w-xs relative">
+                    <p><strong>Dives:</strong> El Dives planteja una reunió pacífica en un centre contaminant. Adjunto link de telegram per als que es vulguin unir. [link]</p>
+                    <span class="absolute bottom-0 left-2 transform translate-y-full text-gray-500 text-xs">Fa 5 minuts</span>
                 </div>
             </div>
 
             <!-- Message 2 -->
             <div class="flex items-start mb-4 justify-end">
-                <div class="bg-blanc p-3 rounded-lg border border-gray shadow-md max-w-xs">
-                    <p><strong>Usuari:</strong> Bona idea, Jo puc aportar ajuda.</p>
+                <div class="bg-blanc p-3 rounded-lg border border-gray-300 shadow-md max-w-xs relative">
+                    <p><strong>Usuari:</strong> Bona idea, jo puc aportar ajuda.</p>
+                    <span class="absolute bottom-0 left-2 transform translate-y-full text-gray-500 text-xs">Fa 4 minuts</span>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Input Area -->
         <div class="flex mt-4">
-            <input class="flex-grow border-2 border-blue500 p-2 rounded-l-lg" type="text" placeholder="M'agrada l'idea jo igual">
-            <button class="bg-blue500 p-2 rounded-r-lg text-blanc">
-                <!-- Icon -->
+            <input class="flex-grow border-2 border-blue-500 p-2 rounded-l-lg focus:outline-none focus:ring focus:ring-blue-300" 
+                   type="text" 
+                   placeholder="M'agrada l'idea, jo igual" 
+                   aria-label="Missatge">
+            <button class="bg-blue-500 p-2 rounded-r-lg text-blanc hover:bg-blue-600 transition duration-300" aria-label="Enviar missatge">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12l14-8v16l-14-8z" />
                 </svg>
             </button>
         </div>
-    </div>
+    </main>
 </body>
 </html>
