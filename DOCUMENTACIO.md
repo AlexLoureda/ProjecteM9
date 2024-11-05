@@ -1,195 +1,171 @@
+# Documentació dels Fitxers HTML d'EcoVerse
 
-  Aquest fitxer `trivia.html` conté una sèrie de preguntes de trivia dissenyades per a entretenir i educar els usuaris. 
-  Les preguntes es presenten de manera interactiva, i els estils s'han aplicat mitjançant Tailwind CSS per aconseguir un 
-  aspecte modern i responsive. Cada pregunta inclou opcions de resposta que l'usuari pot seleccionar, 
-  així com un sistema de puntuació per fer el joc més dinàmic. 
+## `trivia.html`
 
-  Aquest fitxer `register.html` implementa un formulari d'inscripció per als usuaris que desitgen crear un compte. 
-  El disseny és responsive i atractiu, utilitzant Tailwind CSS per a l'estilització i Font Awesome per a les icones. 
-  El formulari inclou els següents camps:
-  
-  - **Nom complet**: per introduir el nom de l'usuari.
-  - **Correu electrònic**: per introduir una adreça de correu electrònic vàlida.
-  - **Telèfon**: per introduir el número de telèfon de l'usuari.
-  - **Contrasenya**: per configurar una contrasenya.
-  - **Confirmació de contrasenya**: per assegurar que la contrasenya s'ha introduït correctament.
+Aquest fitxer `trivia.html` conté una sèrie de preguntes de trivia dissenyades per a entretenir i educar els usuaris. Les preguntes es presenten de manera interactiva, i els estils s'han aplicat mitjançant **Tailwind CSS** per aconseguir un aspecte modern i responsive. Cada pregunta inclou opcions de resposta que l'usuari pot seleccionar, així com un sistema de puntuació per fer el joc més dinàmic.
 
-  El formulari inclou un enllaç per tornar a la pàgina d'inici (`index.html`) i un botó per enviar les dades. 
-  Els estils aplicats garanteixen una bona usabilitat i accessibilitat, amb un enfocament en la retroalimentació visual durant la interacció de l'usuari.
+---
 
+## `register.html`
 
-  Aquest fitxer `tipus_de_plantes.html` presenta una pàgina de selecció de diferents tipus de plantes. 
-  La interfície és atractiva i responsive, amb un disseny que utilitza Tailwind CSS per estilitzar els elements. 
-  La pàgina inclou un encapçalament amb un títol ("Tipus de Plantes") i un enllaç per tornar a la pàgina anterior.
+Aquest fitxer `register.html` implementa un formulari d'inscripció per als usuaris que desitgen crear un compte. El disseny és **responsive** i atractiu, utilitzant **Tailwind CSS** per a l'estilització i **Font Awesome** per a les icones. Inclou els següents camps:
 
-  A continuació, es presenten diverses categories de plantes, incloent:
-  
-  - **Arbres**
-  - **Arbustos**
-  - **Herbes**
-  - **Plantes suculentes**
-  - **Plantes trepadores**
-  - **Figuerons, falgueres, molses i hepàtiques**
-  - **Plantes insectívores**
+- **Nom complet**: per introduir el nom de l'usuari.
+- **Correu electrònic**: per introduir una adreça de correu electrònic vàlida.
+- **Telèfon**: per introduir el número de telèfon de l'usuari.
+- **Contrasenya** i **Confirmació de contrasenya**: per assegurar que la contrasenya s'ha introduït correctament.
 
-  Cada categoria es presenta en una targeta amb un botó que redirigeix a una pàgina específica per a la selecció d'espècimens dins d'aquesta categoria. 
-  Les targetes inclouen efectes d'animació a l'passar el cursor, millorant l'experiència de l'usuari.
+El formulari inclou un enllaç per tornar a la pàgina d'inici (`index.html`) i un botó per enviar les dades, amb estils dissenyats per garantir una bona usabilitat i accessibilitat, amb enfocament en la retroalimentació visual durant la interacció de l'usuari.
 
-  Aquest fitxer `paginaRedireccions.html` serveix com a pàgina d'inici per a l'aplicació EcoVerse, 
-  proporcionant enllaços a diferents seccions de l'aplicació. 
-  La pàgina inclou un encapçalament atractiu amb el títol "EcoVerse" i un botó de sortida.
+---
 
-  La secció principal conté botons que redirigeixen a les següents seccions:
-  
-  - **InfoApp**: proporciona informació sobre l'aplicació.
-  - **Hábitos Ecosostenibles**: ofereix consells i pràctiques per a un estil de vida més sostenible.
-  - **Flora**: enllaç a la pàgina que mostra informació sobre plantes.
-  - **Fauna**: enllaç a la pàgina que mostra informació sobre animals.
+## `tipus_de_plantes.html`
 
-  A més, la pàgina inclou un botó per accedir a un joc de trivia, que afegeix un element d'entreteniment a l'aplicació. 
-  El disseny utilitza Tailwind CSS per assegurar una experiència d'usuari responsive i visualment agradable.
+Aquest fitxer presenta una pàgina de selecció de diferents tipus de plantes. La interfície és atractiva i responsive, amb un disseny que utilitza **Tailwind CSS** per estilitzar els elements. La pàgina inclou un encapçalament amb un títol ("Tipus de Plantes") i un enllaç per tornar a la pàgina anterior.
 
-  Aquest fitxer `infoApp.html` descriu la funcionalitat i els objectius de l'aplicació InfoApp. 
-  La pàgina té un disseny atractiu que utilitza Tailwind CSS per proporcionar una experiència d'usuari agradable i responsive.
+### Categories de Plantes
 
-  La secció principal de la pàgina inclou dues parts clau:
+La pàgina presenta diverses categories de plantes, incloent:
 
-  - **¿Qué es InfoApp?**: 
-    InfoApp és una plataforma educativa que proporciona informació sobre la biodiversitat del planeta, 
-    centrant-se en la vida animal, vegetal i els hàbits ecosostenibles. Dissenyada per ser accessible i 
-    atractiva, és un recurs integral tant per als més petits com per a adults interessats a aprendre sobre 
-    la natura i com protegir el medi ambient. La plataforma inclou seccions interactives que fomenten el coneixement i el respecte pel món natural.
+- **Arbres**
+- **Arbustos**
+- **Herbes**
+- **Plantes suculentes**
+- **Plantes trepadores**
+- **Figuerons, falgueres, molses i hepàtiques**
+- **Plantes insectívores**
 
-  - **Objectius**: 
-    El principal objectiu d'InfoApp és educar les noves generacions sobre la importància de cuidar el medi ambient 
-    i preservar la biodiversitat. A través d'una secció de trivia, es busca incentivar l'aprenentatge de manera divertida, 
-    alhora que un fòrum fomenta la participació activa d'usuaris per compartir idees sobre com viure de manera més sostenible. 
-    InfoApp aspira a inspirar la creació de comunitats dedicades a l'acció climàtica i a la conservació de la natura.
+Cada categoria es presenta en una targeta amb un botó que redirigeix a una pàgina específica per a la selecció d'espècimens dins d'aquesta categoria. Les targetes inclouen efectes d'animació en passar el cursor, millorant l'experiència de l'usuari.
 
-  Aquest fitxer `ecosostenibilitat.html` proporciona una visió general sobre l'ecosostenibilitat i els seus principis clau. 
-  La pàgina utilitza Tailwind CSS per oferir un disseny atractiu i accessible.
+---
 
-  La secció principal de la pàgina inclou les següents parts:
+## `paginaRedireccions.html`
 
-  - **Definició**: 
-    L'ecosostenibilitat es defineix com un model de desenvolupament que busca satisfer les necessitats de les generacions presents sense comprometre les futures. 
-    Aquest concepte és una resposta a la creixent preocupació pels efectes negatius de les activitats humanes sobre el medi ambient.
+Aquest fitxer serveix com a pàgina d'inici per a l'aplicació **EcoVerse**, proporcionant enllaços a diferents seccions de l'aplicació. La pàgina inclou un encapçalament atractiu amb el títol "EcoVerse" i un botó de sortida.
 
-  - **Principis Clau**: 
-    Els dos principis clau són:
-    1. **Reducció de l'impacte ambiental**: Promoure accions que minimitzin l'impacte negatiu de l'activitat humana sobre l'entorn.
-    2. **Ús eficient dels recursos naturals**: Optimitzar l'ús de recursos com l'aigua, l'energia, el sòl i els materials, promovent l'ús d'energies renovables.
+### Seccions Principals
 
-  - **Cicle de Vida dels Productes**: 
-    Enfocament en el disseny de productes i serveis que redueixin l'impacte ambiental al llarg del seu cicle de vida, des de l'extracció de matèries primeres fins a la seva disposició final o reciclatge.
+Conté botons que redirigeixen a les següents seccions:
 
-  - **Recursos Extra**: 
-    Aquesta secció proporciona enllaços a recursos addicionals com "Consells Eco" i "Chat" per fomentar la participació i l'aprenentatge continuat sobre ecosostenibilitat.
--->
+- **InfoApp**: informació sobre l'aplicació.
+- **Hábitos Ecosostenibles**: consells i pràctiques per a un estil de vida més sostenible.
+- **Flora**: informació sobre plantes.
+- **Fauna**: informació sobre animals.
+- **Trivia**: accés a un joc de trivia.
 
-<!-- 
-  Aquest fitxer `consells.html` presenta una sèrie de consells pràctics per promoure hàbits sostenibles i conscients amb el medi ambient.
-  La pàgina utilitza Tailwind CSS per crear un disseny net i atractiu.
+Utilitza **Tailwind CSS** per assegurar una experiència d'usuari responsive i visualment agradable.
 
-  La secció principal de la pàgina inclou els següents consells:
+---
 
-  - **Canviar a millors bombetes**: 
-    Les bombetes incandescents malgasten el 90% de l'energia en forma de calor. Canviar a bombetes LED pot reduir el consum energètic fins a un 80%.
+## `infoApp.html`
 
-  - **Desconnecta els dispositius**: 
-    Els aparells en mode standby consumeixen gairebé el 10% de l'energia de la factura, per tant, és recomanable desconnectar-los quan no s'utilitzen.
+Aquest fitxer `infoApp.html` descriu la funcionalitat i els objectius de l'aplicació **InfoApp**, amb un disseny atractiu que utilitza **Tailwind CSS** per una experiència d'usuari agradable i responsive.
 
-  - **Recicla el paper**: 
-    El reciclatge del paper ajuda a conservar recursos naturals i redueix la necessitat de talar arbres.
+### Contingut Principal
 
-  - **Utilitza bosses reutilitzables**: 
-    Les bosses de plàstic són contaminants i triguen centenars d'anys a descompondre's. Utilitzar bosses reutilitzables ajuda a reduir residus.
+1. **¿Qué es InfoApp?**: 
+   InfoApp és una plataforma educativa que proporciona informació sobre la biodiversitat del planeta, centrant-se en la vida animal, vegetal i els hàbits ecosostenibles.
 
-  - **Estalvia aigua**: 
-    Reduir el temps de dutxa i arreglar filtres d'aigua pot estalviar centenars de litres d'aigua al mes.
+2. **Objectius**:
+   Educar les noves generacions sobre la importància de cuidar el medi ambient i preservar la biodiversitat, utilitzant una secció de trivia i un fòrum per fomentar la participació activa i l'aprenentatge col·laboratiu.
 
-  - **Utilitza transports sostenibles**: 
-    Caminar, utilitzar la bicicleta o el transport públic redueix la contaminació i l'ús de combustibles fòssils.
+---
 
-  - **Consumeix productes locals**: 
-    Comprar productes locals redueix l'impacte ambiental del transport i fomenta l'economia local.
+## `ecosostenibilitat.html`
 
-  - **Opta per energia renovable**: 
-    Utilitzar fonts d'energia renovable com el sol o el vent pot disminuir considerablement la teva petjada de carboni.
+Aquest fitxer proporciona una visió general sobre l'ecosostenibilitat i els seus principis clau, amb un disseny atractiu i accessible gràcies a **Tailwind CSS**.
 
-  - **Redueix, reutilitza i recicla**: 
-    Adoptar la regla dels 3R ajuda a disminuir els residus i promou un estil de vida sostenible.
--->
+### Parts Principals
 
-<!-- 
-  Aquest fitxer `chat.html` proporciona una interfície per a un xat comunitari on els usuaris poden compartir informació
-  i organitzar esdeveniments relacionats amb la sostenibilitat i la conservació del medi ambient.
+- **Definició**: 
+  Explica l'ecosostenibilitat com un model que busca satisfer les necessitats actuals sense comprometre les generacions futures.
 
-  ### Capçaleres
-  La capçalera conté un enllaç per tornar enrere i el títol "Chat" que és visible i destacat.
+- **Principis Clau**:
+  - Reducció de l'impacte ambiental.
+  - Ús eficient dels recursos naturals.
 
-  ### Secció de Notícies del Chat
-  Aquesta secció proporciona un avís als usuaris sobre l'ús responsable de la plataforma. 
+- **Cicle de Vida dels Productes**: 
+  Consideracions per al disseny de productes que redueixin l'impacte ambiental al llarg de tot el seu cicle de vida.
 
-  ### Contenidor de Missatges
-  Els missatges del xat es presenten en dos formats diferents:
-  - Missatges de l'usuari "Dives", que planteja una reunió pacífica en un centre contaminant.
-  - Missatges de l'usuari "Usuari", que ofereix ajuda.
+- **Recursos Extra**: 
+  Enllaços addicionals com "Consells Eco" i "Chat" per fomentar l'aprenentatge sobre ecosostenibilitat.
 
-  Els missatges s'estilen per a diferenciar qui els envia (un amb fons de color secundari i l'altre amb fons blanc).
+---
 
-  ### Àrea d'Entrada
-  Els usuaris poden introduir els seus missatges a través d'un camp d'entrada, i enviar-los mitjançant un botó que conté un icono de paperera.
+## `consells.html`
 
-  ### Funcionalitats
-  - **Espai Segur**: Es promou un espai segur per a compartir idees.
-  - **Interacció**: Els usuaris poden respondre i interactuar amb els missatges.
--->
+Aquest fitxer presenta una sèrie de consells pràctics per promoure hàbits sostenibles i conscients amb el medi ambient, utilitzant **Tailwind CSS** per crear un disseny net i atractiu.
 
-<!-- 
-  Aquest fitxer `tipus_animals.html` presenta una interfície per a seleccionar diferents tipus d'animals.
-  Els usuaris poden accedir a pàgines específiques per a cada grup d'animals.
+### Consells Principals
 
-  ### Capçaleres
-  La capçalera conté un enllaç per tornar enrere i el títol "Tipus D'Animals" que és visible i destacat.
+1. **Canviar a millors bombetes**: Reduir el consum energètic amb bombetes LED.
+2. **Desconnecta els dispositius**: Evitar el consum en standby.
+3. **Recicla el paper**: Conservar recursos naturals.
+4. **Utilitza bosses reutilitzables**: Reduir els residus de plàstic.
+5. **Estalvia aigua**: Evitar el malbaratament.
+6. **Transports sostenibles**: Reduir l'ús de combustibles fòssils.
+7. **Productes locals**: Reduir l'impacte del transport.
+8. **Energia renovable**: Disminuir la petjada de carboni.
+9. **Redueix, reutilitza i recicla**: Fomentar un estil de vida sostenible.
 
-  ### Categories d'Animals
-  La pàgina es divideix en categories per a diferents tipus d'animals, cada una amb un botó que permet accedir a més informació sobre cada categoria:
-  
-  - **Mamífers**: Accés a `mamifers.html`
-  - **Aus**: Accés a `aus.html`
-  - **Peixos**: Accés a `peixos.html`
-  - **Reptils**: Accés a `reptils.html`
-  - **Anfibis**: Accés a `anfibis.html`
-  - **Invertebrats**: Accés a `invertebrats.html`
+---
 
-  Cada categoria es presenta en un contenidor amb un fons verd clar, un títol destacat i un botó d'accés que canvia d'estil al passar el cursor per sobre.
+## `chat.html`
 
-  ### Funcionalitats
-  - **Navegació**: Permet als usuaris accedir fàcilment a informació detallada sobre cada tipus d'animal.
-  - **Estil i Responsivitat**: Disseny responsive amb una estructura de quadrícula que s'adapta a diferents mides de pantalla.
--->
+Aquest fitxer proporciona una interfície per a un **xat comunitari** on els usuaris poden compartir informació i organitzar esdeveniments relacionats amb la sostenibilitat i la conservació del medi ambient.
 
-# Documentació de `tipus_animals.html`
+### Estructura
 
-Aquest fitxer HTML presenta una interfície per a la selecció de diferents tipus d'animals. La pàgina està dissenyada per facilitar l'accés a informació relacionada amb les diverses categories d'animals, permetent als usuaris navegar fàcilment entre elles.
+- **Capçaleres**: Conté un enllaç per tornar enrere i el títol "Chat" destacat.
+- **Secció de Notícies del Chat**: Avisa els usuaris sobre l'ús responsable de la plataforma.
+- **Contenidor de Missatges**: Presenta missatges amb estil diferent per cada usuari.
+- **Àrea d'Entrada**: Permet introduir i enviar missatges amb un botó que inclou una icona de paperera.
 
-## Estructura del Document
+### Funcionalitats
+
+- **Espai Segur**: Un entorn segur per a compartir idees.
+- **Interacció**: Els usuaris poden respondre i interactuar amb els missatges d'altres.
+
+---
+
+## `tipus_animals.html`
+
+Aquest fitxer presenta una interfície per a seleccionar diferents tipus d'animals, permetent als usuaris accedir a pàgines específiques per a cada grup.
+
+### Estructura del Document
+
+- **Capçalera**: Conté un enllaç per tornar enrere i el títol "Tipus D'Animals".
+- **Categories d'Animals**: La pàgina es divideix en categories amb botons per accedir a més informació sobre cada tipus:
+  - **Mamífers**: Accés a `mamifers.html`.
+  - **Aus**: Accés a `aus.html`.
+  - **Peixos**: Accés a `peixos.html`.
+  - **Rèptils**: Accés a `reptils.html`.
+  - **Amfibis**: Accés a `anfibis.html`.
+  - **Invertebrats**: Accés a `invertebrats.html`.
+
+Cada categoria es presenta en un contenidor amb fons verd clar, un títol destacat i un botó d'accés que canvia d'estil al passar el cursor.
+
+### Funcionalitats
+
+- **Navegació**: Accés a informació detallada sobre cada tipus d'animal.
+- **Estil i Responsivitat**: Disseny responsive amb estructura de quadrícula per adaptar-se a diferents mides de pantalla.
+
+---
+
+# Documentació Específica de `tipus_animals.html`
+
+Aquest fitxer HTML facilita la selecció de diferents tipus d'animals, oferint una navegació clara i fàcil entre les categories.
 
 ### Capçalera
 - Conté un enllaç per tornar enrere a la pàgina anterior.
-- Inclou el títol "Tipus D'Animals", que és clar i visible.
+- Inclou el títol "Tipus D'Animals".
 
 ### Contingut Principal
-- La pàgina es divideix en diverses categories d'animals, presentades en un format de quadrícula.
-- Cada categoria inclou un títol i un botó que permet accedir a una pàgina específica dedicada a aquesta categoria.
+- La pàgina es divideix en categories d'animals presentades en quadrícula.
+- Cada categoria inclou un títol i un botó per accedir a una pàgina específica.
 
 ### Estil i Responsivitat
-- Utilitza un disseny responsiu que s'adapta a diferents mides de pantalla, mantenint una presentació atractiva i funcional.
-- Cada categoria es presenta en un contenidor amb un fons de color, que canvia d'estil quan s'interactua amb ell, millorant l'experiència de l'usuari.
+- L'estil es crea amb **Tailwind CSS**.
+- La pàgina està dissenyada per adaptar-se a diferents dispositius gràcies a la quadrícula i les animacions.
 
-## Funcionalitats
-- **Navegació**: Facilita l'accés a informació específica sobre cada tipus d'animal.
-- **Interactivitat**: Els botons responen al pas del cursor, oferint una experiència dinàmica i atractiva.
-
-Aquesta estructura permet als usuaris explorar i aprendre sobre diversos tipus d'animals de manera efectiva.
+Aquest document ofereix un recorregut complet per als usuaris interessats en la fauna i flora, així com consells per mantenir un estil de vida ecosostenible.

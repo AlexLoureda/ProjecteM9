@@ -20,7 +20,8 @@ export default defineConfig({
         animals: path.resolve(__dirname, "/src/pages/animals.html"),
 
         //Sel Especimens
-        arbres: path.resolve(__dirname, "/src/pages/seleccioEspecimens/anfibis.html"),
+        arbres: path.resolve(__dirname, "/src/pages/seleccioEspecimens/arbres.html"),
+        anfibis: path.resolve(__dirname, "/src/pages/seleccioEspecimens/anfibis.html"),
         arbustos: path.resolve(__dirname, "/src/pages/seleccioEspecimens/arbustos.html"),
         aus: path.resolve(__dirname, "/src/pages/seleccioEspecimens/aus.html"),
         ffmh: path.resolve(__dirname, "/src/pages/seleccioEspecimens/ffmh.html"),
