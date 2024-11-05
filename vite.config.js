@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import path from "path";
 
 export default defineConfig({
   root: "./",
@@ -6,7 +7,11 @@ export default defineConfig({
   build:{
     outDir: "dist",
     rollupOptions: {
-      input: "./index.html",
+      input: {
+        main: path.resolve(__dirname, "index.html"),
+        paginaRedireccions: path.resolve(__dirname, "/src/pages/paginaRedireccions.html"),
+        register: path.resolve(__dirname, "/src/pages/register.html")
+      },
     },
   },
   server: {
